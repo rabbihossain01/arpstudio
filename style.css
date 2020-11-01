@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FBF9FA;
+}
+
+P {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 5rem 2rem;
+    margin: auto;
+}
+
+/* Header Section */
+
+#header-section{
+    border-bottom: 2px solid #bbbbbb;
+}
+
+#header-section .container {
+    padding: 2rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#header-section .navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+#header-section .navber h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#43658B ;
+  
+}
+
+
+#header-section .nav ul {
+    display: flex;
+    grid-gap: 3rem;
+    text-align: center;
+}
+
+#header-section .nav ul li  {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    list-style: none;
+  
+}
+
+#header-section .nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+   
+}
+
+#header-section .nav ul li a:hover {
+    background: #43658B;
+    color: white;
+    cursor: pointer;
+}
+
+#header-section .search-masuk {
+    display: flex;
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+#header-section .search {
+    border-radius: 10px;
+    background:#d4dbe2;
+}
+
+#header-section .search input {
+    padding: 10px 16px;
+    background:#d4dbe2;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+#header-section .search i {
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: white;
+   background: #43658B;
+   padding: 10px;
+   cursor: pointer;
+}
+
+#header-section #masuk a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: #3f6b9c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#header-section #masuk a:hover {
+    background:#43658B;
+}
+
+/* start-showcase */
+
+#showcase  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+#showcase img {
+    width: 50%;
+    padding-right: 2rem;
+} 
+
+#showcase .main {
+    width: 50%;
+    padding-left: 2rem;
+}
+
+#showcase .main  h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase; 
+}
+
+
+#showcase .main  p {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 2rem 0rem;
+}
+/* showcase end*/
+
+/* start-keywords */
+#keywords .main-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#keywords .main-1 div{
+    padding: 2.5rem 4rem;
+    background:#43658b;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 40px 40px 5px 5px; 
+    position: relative; 
+}
+
+#keywords .main-1 div::before {
+    content: "";
+    position: absolute;
+    background: #FFAB7B;
+    bottom: -12px;
+    left: -15px;
+    right: -15px;
+    height:25px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/* start-keywords end */
+
+
+/* about-section */
+#about-section {
+    border-bottom: 2px solid #bbbbbb ;
+}
+
+#about-section .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0rem;
+   
+}
+
+#about-section .py-1 h2 {
+   font-size: 2.3rem;
+   padding: 3rem 0rem;
+   text-transform: uppercase;
+  
+}
+
+
+#about-section .py-1 p {
+    font-size: 1.2rem;
+}
+
+#about-section .info-img img {
+   width: 70vh;
+}
+
+/* about-section end */
+
+/* paket */
+
+#paket {
+    border-bottom: 2px solid #bbbbbb ;
+}
+
+#paket .py-2 h2 {
+   display: flex;
+   justify-content: center;
+   font-size: 2.5rem;
+   padding-bottom: 4rem;
+   text-transform: uppercase;
+}
+
+#paket .main-info {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+#paket .flex-1 {
+    background: #43658B;
+    position: relative;
+    padding: 3rem 2rem;  
+    border-radius: 10px;
+    width: 350px;
+}
+
+#paket .flex-1 h2 {
+    font-size: 2rem;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 1rem;
+    color: white;
+    text-align:center ;
+    background:#FFA372 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#paket .flex-1 p {
+    font-size: 1.8rem;
+    color: white;
+    padding: 3rem 0rem;
+}
+
+#paket .flex-1 li {
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+   
+}
+
+#paket .button {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#paket .button a {
+    font-size: 1.5rem;
+    color: white;
+    background:#FFA372;
+    text-decoration: none;
+    padding: 10px 20px; 
+    text-transform: capitalize; 
+    border-radius: 10px;
+}
+
+#paket .button a:hover {
+  background:#e2824f;
+}
+
+/* paket  end*/
+
+ /* mereka */
+
+  #mereka {
+    border-bottom: 2px solid #bbbbbb ; 
+  }
+
+#mereka .images {
+    display: flex;
+    justify-content: center;
+}
+
+#mereka .images h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 3rem 0rem 8rem;
+}
+
+
+#mereka .img-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mereka  div img {
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid #43658B;   
+}
+
+#mereka .big img {
+    width: 250px;
+    border-radius: 50%; 
+    border: 5px solid #43658B; 
+    position: relative;
+    bottom: 3rem; 
+
+}
+
+#mereka .diva {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#mereka .diva h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+
+#mereka .diva p {
+    font-size: 1.2rem;  
+}
+
+#mereka .diva p span {
+   font-size: 3rem;
+   font-family:serif ;
+   line-height: 1;
+}
+  /* mereka end */
+
+
+  /* tentor  */
+
+  #tentor {
+    border-bottom: 2px solid #bbbbbb; 
+  } 
+ 
+
+  #tentor .body-img {
+      display: flex;
+      justify-content: center;
+  }
+
+  #tentor .body-img h2 {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      padding: 4rem 0rem;
+  }
+
+  #tentor .background{
+      display: flex;
+      justify-content: space-between; 
+      text-align: center; 
+  }
+
+  #tentor .color {
+      background: #e2824f;
+      height: 370px;
+      width: 350px;
+      border-radius: 10px;
+  }
+
+  #tentor .color img {
+    line-height: 100%;
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+
+  #tentor .color h3 {
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      line-height: 3rem;
+      color: white;
+  }
+  
+  #tentor .color p {
+      font-size: 1.2rem;
+      text-transform: capitalize;
+      color: white;
+      
+  }
+
+  /* tentor end */
+  
+
+ /* kursus */
+
+ #kursus {
+    border-bottom: 2px solid #bbbbbb;  
+ }
+
+ #kursus .online {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #kursus .online img {
+     height: 400px;
+     width: 550px;
+ }
+
+ #kursus .last-about h1 {
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     padding: 3rem 0rem;
+     line-height:1;
+
+ }
+
+
+ #kursus .last-about p {
+     font-size: 1.2rem;
+     text-transform: capitalize;  
+ }
+
+ #kursus .bd-button {
+     font-size: 1.2rem;
+     padding:3rem 0rem ;
+ }
+
+ #kursus .bd-button a {
+     text-decoration: none;
+     text-transform: capitalize;
+     background: #43658B;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 10px;  
+ }
+
+ #kursus .bd-button a:hover {
+     background:#315d90;
+ }
+
+  /* kursus end */
+
+  /* footer */
+
+  #footer .footer-section h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 1.7rem;
+      text-transform: uppercase;
+  }
+
+
+  #footer .icon-section {
+      display:flex;
+      justify-content: center;
+      grid-gap: 5rem;
+     
+  }
+
+  #footer .icon-section div i {
+      font-size: 2.5rem;
+      margin-top: 3rem;
+      border-radius: 5px;
+      color: #000; 
+      transition: .4s; 
+  }
+
+  #footer .icon-section i:hover {
+     transform: scale(1.1);
+  }
+
+
+  #footer .copy {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 4rem;
+      text-transform: capitalize;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

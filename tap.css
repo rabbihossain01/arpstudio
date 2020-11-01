@@ -1,0 +1,278 @@
+
+/* Header Section */
+
+#header-section .container {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#header-section .navber {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#about-section .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    text-align: center;
+   
+}
+
+#header-section .navber h2 {
+    font-size: 1rem;
+    text-align: center;
+  
+}
+
+#header-section .nav ul {
+    display: flex;
+    grid-gap: 2rem;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+#header-section .nav ul li {
+    font-size: 1.5rem;
+}
+
+#header-section #masuk  {
+  padding: 1rem 0rem;
+}
+
+
+#header-section .search-masuk {
+    flex-direction: column;
+    grid-gap: 2rem;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+/* start-showcase */
+
+#showcase  {
+    flex-direction: column;
+    flex-direction:column;
+    align-items: center; 
+}
+
+#showcase .main  h1 {
+    font-size: 1.5rem;
+}
+
+#showcase img {
+    width: 80%;
+    padding-right: 0rem;
+    text-align: center;
+    padding-bottom: 2rem;
+} 
+
+#showcase .main {
+    width: 100%;
+    padding-left: 0rem;
+    text-align: center;
+}
+
+#showcase .main  p {
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+}
+
+/* showcase end*/
+
+/* start-keywords */
+   #keywords .main-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    
+}
+
+#keywords .main-1 div{
+    padding: 2rem 2rem;
+    font-size: 1.1rem;
+}
+
+/* start-keywords end */
+
+/* about-section */
+
+#about-section .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#about-section .py-1 h2 {
+    font-size: 2rem;
+    padding: 2rem 0rem;
+    text-align: center;
+ }
+
+ #about-section .info-img img {
+    width:400px;
+    margin-top: 2rem;
+ }
+
+ /* about-section end */
+
+ /* paket */
+
+ #paket .py-2 h2 {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #paket .main-info {
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+#paket .flex-1 {
+    width:100%;
+    text-align: center;
+}
+
+#paket .flex-1 p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#paket .flex-1 li {
+    font-size: 1.2rem;
+    text-align: center;  
+}
+
+#paket .button a {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* paket  end*/
+
+/* mereka */
+#mereka .images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mereka .images h2 {
+    font-size: 2rem;
+     text-align:center ;
+}
+
+#mereka  div img {
+  margin-bottom: 3rem; 
+
+}
+
+#mereka .big img {
+    bottom: 0rem; 
+
+}
+
+#mereka .img-category {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+/* mereka end */
+
+/* tentor  */
+
+#tentor .body-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tentor .color {
+    height: 550px;
+    width: 600px;
+   display: inline-block;
+   margin: auto;
+}
+
+#tentor .body-img h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#tentor .background{
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    grid-gap: 2rem;
+}
+
+#tentor .color h3 {
+    font-size: 1.5rem;
+}
+
+/* tentor end */
+
+
+ /* kursus */
+
+ #kursus .online {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #kursus .online img {
+     height: 100%;
+     width:100%;
+ }
+
+ #kursus .last-about h1 {
+     font-size: 2rem;
+     text-align: center;
+ }
+
+
+ #kursus .last-about p {
+     text-align: center; 
+ }
+
+ #kursus .bd-button {
+   text-align: center;
+}
+
+
+  /* kursus end */
+
+   /* footer */
+
+   #footer .footer-section h2 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+  
+}
+
+#footer .icon-section div i {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+#footer .icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;  
+}
