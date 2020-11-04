@@ -29,20 +29,23 @@ P {
 }
 
 #header-section .navber h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   
 }
 
 #header-section .nav ul {
     display: flex;
-    grid-gap: 0rem;
     text-align: center;
     padding: 1rem 0rem;
 }
 
 #header-section .nav ul li {
-    font-size: 1rem;
+    font-size: 0.8rem;
+}
+#header-section .nav ul li a {
+    margin: 0rem 0rem;
+   
 }
 
 #header-section #masuk  {
@@ -52,9 +55,11 @@ P {
 
 #header-section .search-masuk {
     flex-direction: column;
-    grid-gap: 1rem;
     align-items: center;
     font-size: 1rem;
+}
+#header-section .search {
+    margin: 0rem 0rem;
 }
 
 /* start-showcase */
@@ -120,10 +125,23 @@ P {
     text-align: center;
  }
 
+ #about-section .py-1{
+    width: 100%;
+}
+
  #about-section .info-img img {
     width: 100%;
     margin-top: 2rem;
  }
+
+ #about-section .info-img {
+    width: 100%;
+}
+
+ #about-section .py-1 p {
+    font-size: 1.2rem;
+    text-align: center;
+}
 
  /* about-section end */
 

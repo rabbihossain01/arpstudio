@@ -1,0 +1,87 @@
+/* Header Section */
+
+#header-section .container {
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+#header-section .navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#about-section .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    text-align: center;
+   
+}
+
+#header-section .navber h2 {
+    font-size: 2.5rem;
+    margin-bottom:1.5rem;
+    text-align: center;
+  
+}
+
+#header-section .search {
+    border-radius: 5px;
+    display: none;
+}
+
+#header-section .search input {
+    padding: 5px 10px;   
+}
+
+#header-section .nav ul {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+#header-section .nav ul li {
+    font-size: 1.5rem;
+}
+
+#header-section .nav ul li a {
+    margin: 0rem 2rem;
+   
+}
+
+#header-section #masuk  {
+  padding: 1rem 0rem;
+}
+
+
+#header-section .search-masuk {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+#header-section .search {
+    margin: 0rem 1rem;
+}
+
+
+/* start-showcase */
+
+#showcase  {
+    flex-direction: column;
+    flex-direction:column;
+    align-items: center; 
+}
+
+#showcase .main  h1 {
+    font-size: 1.5rem;
+}
+
+#showcase img {
+    width: 50%;
+    padding-right: 0rem;
+    text-align: center;
+    padding-bottom: 2rem;
+} 

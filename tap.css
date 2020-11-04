@@ -23,20 +23,34 @@
 }
 
 #header-section .navber h2 {
-    font-size: 1rem;
+    font-size: 2.5rem;
+    margin-bottom:1.5rem;
     text-align: center;
   
 }
 
+#header-section .search {
+    border-radius: 5px;
+    display: none;
+}
+
+#header-section .search input {
+    padding: 5px 10px;   
+}
+
 #header-section .nav ul {
     display: flex;
-    grid-gap: 2rem;
     align-items: center;
     padding: 1rem 0rem;
 }
 
 #header-section .nav ul li {
     font-size: 1.5rem;
+}
+
+#header-section .nav ul li a {
+    margin: 0rem 1rem;
+   
 }
 
 #header-section #masuk  {
@@ -46,9 +60,11 @@
 
 #header-section .search-masuk {
     flex-direction: column;
-    grid-gap: 2rem;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+#header-section .search {
+    margin: 0rem 1rem;
 }
 
 
@@ -65,14 +81,14 @@
 }
 
 #showcase img {
-    width: 80%;
+    width: 50%;
     padding-right: 0rem;
     text-align: center;
     padding-bottom: 2rem;
 } 
 
 #showcase .main {
-    width: 100%;
+    width: 50%;
     padding-left: 0rem;
     text-align: center;
 }
@@ -96,6 +112,7 @@
 #keywords .main-1 div{
     padding: 2rem 2rem;
     font-size: 1.1rem;
+   
 }
 
 /* start-keywords end */
